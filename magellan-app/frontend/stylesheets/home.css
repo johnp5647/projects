@@ -1,0 +1,67 @@
+.home-head {
+	border-bottom: solid black 3px;
+	
+	background-image: url(../pictures/east-indies.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	height: 350px;
+	text-align: center;
+}
+
+.home-body {
+	text-align: center;
+	border-left: solid darkgray 3px;
+	border-right: solid darkgray 3px;
+}
+
+.home-h2head {
+	height: 85%;
+	
+	color: white;
+	text-shadow: 1px 1px 8px black;
+	
+	font-family: cursive;
+	font-size: 40px;
+	font-weight: 600;
+	
+}
+
+.home-body-h1 {
+	font-family: serif;
+	
+	color: black;
+}
+
+.home-body-subdiv {
+	border: solid lightgray 2px;
+	padding-top: 10px;
+	background-color: ghostwhite;
+}
+
+.home-body-badge {
+	border-bottom: solid lightgray 2px;
+	background-color: ghostwhite;
+}
+
+.home-rightside {
+	
+	
+	border-right: solid darkgray 3px;
+	margin-left: 10px;
+}
+
+.home-rightside-story {
+	text-align: center;
+	border: solid lightgray 2px;
+	padding: 10px;
+	background-color: ghostwhite;
+}
+
+.story-body {
+	text-align: justify;
+}
+
+.pic-sub {
+	font-size: 80%;
+}

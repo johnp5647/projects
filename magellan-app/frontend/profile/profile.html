@@ -1,0 +1,43 @@
+
+<div class="row">
+    <div class="col-xs-12 profile-head">
+        <h2 class='profile-h2head'><img src='pictures/4TboEprac-1.png'></h2>
+    </div>
+</div>
+
+<h1>Hello, {{user.firstname}}</h1>
+
+<div class="row">
+	<div class="col-xs-2 col-xs-offset-5 badges-list">
+		<div class="form-group badges-form">
+			<label class='label-select' for='badgesList'>Badges Completed</label>
+			<select name='badgesList' class="form-control" ng-model='selected' ng-options='badges.title for badges in badges'>
+
+			</select>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-xs-2 col-xs-offset-5 profile-submit">
+		<button class="btn btn-sm" ng-click='submit()'>Submit</button>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-xs-3 col-xs-offset-1 profile-badge">
+		<h3>Current Badges</h3>
+		<div ng-repeat='badges in user.badges' class="profile-indv-badge">
+			<h3>{{badges.title}}</h3>
+			<p>{{badges.description}}</p>
+			<img src="badgepics/{{badges.imgTag}}">
+		</div>
+	</div>
+	<div class="col-xs-3 col-xs-offset-4 profile-info">
+		<h3>Profile Info</h3><br>
+		<h4>Name: </h4><br>
+		<p>{{user.firstname}} {{user.lastname}}</p><br>
+		<h4>Username: </h4><br>
+		<p>{{user.username}}</p><br>
+	</div>
+</div>

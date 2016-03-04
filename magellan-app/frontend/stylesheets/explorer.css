@@ -1,0 +1,85 @@
+.banner {
+    height: 50vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.banner-polo {
+    height: 93vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.magellan-img {
+    background: url(../pictures/head0327_5.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120vh;
+}
+
+.earhart-img {
+    background: url(../pictures/earhart.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120vh;
+}
+
+.armstrong-img {
+    background: url(../pictures/Neil-Armstrong.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.landc-img {
+	background: url(../pictures/LewisandClark.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.tn-img {
+    background: url(../pictures/Hillary_and_tenzing.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120vh;
+}
+
+.gagarin-img {
+    background: url(../pictures/yuri.jpeg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120vh;	
+}
+
+.polo-img {
+    background: url(../pictures/hith-marco-polo-china-E.jpeg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120vh;	
+}
+
+.h1-reigion {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.p-region {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+}

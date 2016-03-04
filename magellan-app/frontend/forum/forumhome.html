@@ -1,0 +1,38 @@
+<div class="row">
+	<div class="col-xs-12 forum-head">
+		<h2 class='forum-h2head'><img src='pictures/4TboEprac-1.png'></h2>
+	</div>
+</div>
+<div class="row">
+	<div class="col-xs-12 forum-word">
+		<h1>Forum</h1>
+	</div>
+</div>
+
+
+<div class='row'>
+	<div class='col-xs-10 col-xs-offset-1 forum-input' ng-hide="userOn">
+		<form>
+			<div class="control-group">
+				<label>Subject</label>
+				<input type="text" class="form-control" ng-model="post.title">
+				<label>Message</label>
+				<textarea class="form-control" rows="5" id="comment" ng-model='post.postText'></textarea>
+			</div>
+			<br>
+			<button class="center-block btn btn-primary btn-lg" ng-click="submit(post)">Submit</button>
+		</form>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-xs-12 title-container">
+		<div ng-repeat='post in forumTitles'>
+			<div class='row'>
+				<div class='col-xs-10 col-xs-offset-1 forum-titles'>
+					<p><a href="#/forum/{{post._id}}">{{post.title}}</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

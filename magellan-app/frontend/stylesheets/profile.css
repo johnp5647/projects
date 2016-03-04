@@ -1,0 +1,46 @@
+.profile-head {
+	border-bottom: solid black 3px;
+	
+	background-image: url(../pictures/savanna.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	height: 350px;
+	text-align: center;
+}
+
+.profile-h2head {
+	height: 85%;
+	
+	color: white;
+	text-shadow: 1px 1px 8px black;
+	
+	font-family: cursive;
+	font-size: 40px;
+	font-weight: 600;
+	
+}
+
+.profile-submit {
+	text-align: center;
+}
+
+.profile-badge {
+	text-align: center;
+	
+}
+
+.profile-info {
+	text-align: center;
+	background-color: ghostwhite;
+}
+
+.profile-indv-badge {
+	border: solid lightgray 2px;
+	padding-top: 10px;
+	background-color: ghostwhite;
+}
+
+.title-container {
+	margin-bottom: 50px;
+}

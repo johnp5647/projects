@@ -1,0 +1,36 @@
+.forumInc-head {
+	border-bottom: solid black 3px;
+	
+	background-image: url(../pictures/Bayanzagh.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	height: 350px;
+	text-align: center;
+}
+
+.forumInc-h2head {
+	height: 85%;
+	
+	color: white;
+	text-shadow: 1px 1px 8px black;
+	
+	font-family: cursive;
+	font-size: 40px;
+	font-weight: 600;
+	
+}
+
+.main-post {
+	font-size: 120%;
+	border-bottom: solid black 5px;
+}
+
+.comments {
+	border-bottom: solid lightgray 2px;
+}
+
+.uname {
+	font-size: 80%;
+	font-style: italic;
+}

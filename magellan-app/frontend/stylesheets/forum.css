@@ -1,0 +1,39 @@
+.forum-head {
+	border-bottom: solid black 3px;
+	
+	background-image: url(../pictures/sstorm.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	height: 350px;
+	text-align: center;
+}
+
+.forum-h2head {
+	height: 85%;
+	
+	color: white;
+	text-shadow: 1px 1px 8px black;
+	
+	font-family: cursive;
+	font-size: 40px;
+	font-weight: 600;
+	
+}
+
+.forum-input {
+	margin-top: 35px;
+	
+}
+
+.forum-titles {
+	margin-top: 15px;
+	padding-top: 15px;
+	font-size: 200%;
+	border-top: solid lightgray 2px;
+}
+
+.forum-word {
+	text-align: center;
+	font-family: serif;
+}

@@ -1,0 +1,42 @@
+.badge-div {
+	height: 350px;
+	border: solid darkgray 2px;
+	text-align: center;
+	background-color: ghostwhite;
+}
+
+.badge-area {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.badge-head {
+	border-bottom: solid black 3px;
+	
+	background-image: url(../pictures/Kingman.jpg.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	height: 350px;
+	text-align: center;
+}
+
+.badge-h2head {
+	height: 85%;
+	
+	color: white;
+	text-shadow: 1px 1px 8px black;
+	
+	font-family: cursive;
+	font-size: 40px;
+	font-weight: 600;
+	
+}
+
+.badges-form {
+	width: 200px;
+}
+
+.badges-list {
+	text-align: center;
+}
